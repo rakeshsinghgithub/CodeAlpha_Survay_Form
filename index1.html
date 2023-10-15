@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          Job Application
+          <span class="title_small">(Web)</span>
+        </h1>
+        <form action="" method="POST">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name"> First Name </label>
+              <input
+                id="first_name"
+                name="first_name"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Last Name </label>
+              <input
+                id="last_name"
+                name="last_name"
+                placeholder="Last Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="xyz@gmail.com"
+              />
+            </div>
+            <div class="form_control">
+                <label for="mobile"> Mobile Number </label>
+                <input
+                  type="tel"
+                  id="mobile"
+                  name="mobile"
+                  placeholder=""
+                />
+              </div>
+              <div class="form_control">
+                <label for="quali-fication"> Qualification </label>
+                <select id="quali-fication" name="quali-fication">
+                  <option value="btech">B Tech</option>
+                  <option value="bca">BCA</option>
+                  <option value="twelve">12th</option>
+                  <option value="mca">MCA</option>
+                  <option value="mtech">M Tech</option>
+                  
+                </select>
+              </div>
+            <div class="form_control">
+              <label for="job_role"> Select Interested Project </label>
+              <select id="job_role" name="job_role">
+                <option value="">AI/ML</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="ui_ux">UI UX Designer</option>
+                <option value="markating">Marketing</option>
+              </select>
+            </div>
+            
+            
+              <div class="form_control">
+                <label for="city"> City </label>
+                <input id="city" name="city" placeholder="" />
+              </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter Pincode Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="date"> Date </label>
+              <input value="" type="date" id="date" name="date" />
+            </div>
+            <div class="form_control">
+                <label for="institute"> Institute Name </label>
+                <input id="institute" name="institute" placeholder="" />
+              </div>
+            <!-- <div class="form_control">
+              <label for="upload"> Upload Your CV </label>
+              <input type="file" id="upload" name="upload" />
+            </div> -->
+          </div>
+          
+          <div class="textarea_control">
+            <label for="address">  </label>
+            <textarea
+              id="address"
+              name="address"
+              row="4"
+              cols="50"
+              placeholder="Enter Your Comment..."
+            ></textarea>
+          </div>
+          <div class="submit_container">
+            <input type="submit" value="Submit" id="submit"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
